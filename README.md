@@ -3,7 +3,7 @@
 
 # Project Overview
 
-This project focuses on developing an end-to-end machine learning-based financial fraud detection system for identifying fraudulent transactions within highly imbalanced transaction data. The project addresses the challenges associated with fraud detection, particularly the significantly smaller number of fraudulent transactions compared with legitimate transactions.
+This project focuses on developing an end-to-end machine learning-based financial fraud detection system for identifying fraudulent transactions within highly imbalanced transaction data. The project addresses the challenges associated with fraud detection, particularly the significantly smaller number of fraudulent transactions relative to legitimate ones.
 
 The system incorporates data preprocessing, class-imbalance handling, machine learning model development, threshold optimization, model evaluation, explainable AI, and web-based deployment for interactive fraud-risk assessment.
 
@@ -22,7 +22,7 @@ A ColumnTransformer was used to apply different preprocessing techniques to nume
 
 # Handling Class Imbalance
 
-A major challenge in the project was the highly imbalanced nature of the fraud dataset, where legitimate transactions significantly outnumbered fraudulent transactions.
+A major challenge in the project was the highly imbalanced nature of the fraud dataset, in which legitimate transactions significantly outnumbered fraudulent ones.
 
 To address this problem, Synthetic Minority Over-sampling Technique (SMOTE) was incorporated into the model development process. SMOTE generates synthetic samples for the minority class, helping the model learn patterns associated with fraudulent transactions rather than being biased toward the majority class.
 
